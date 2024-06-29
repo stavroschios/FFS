@@ -1,0 +1,6 @@
+framework module FFS {
+  umbrella header "FFS.h"
+  export *
+
+  module * { export * }
+}

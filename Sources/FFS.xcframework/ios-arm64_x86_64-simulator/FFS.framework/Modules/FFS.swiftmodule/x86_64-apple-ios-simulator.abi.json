@@ -1,0 +1,98 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FFS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SDK",
+        "printedName": "SDK",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(apiKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:3FFS3SDKV9configure6apiKeyySS_tFZ",
+            "mangledName": "$s3FFS3SDKV9configure6apiKeyySS_tFZ",
+            "moduleName": "FFS",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "run",
+            "printedName": "run()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:3FFS3SDKV3runyyFZ",
+            "mangledName": "$s3FFS3SDKV3runyyFZ",
+            "moduleName": "FFS",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:3FFS3SDKV",
+        "mangledName": "$s3FFS3SDKV",
+        "moduleName": "FFS",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/stavrospachoundakis\/14FS\/FRAMEWORK\/FFS\/FFS\/FFS.swift",
+      "kind": "BooleanLiteral",
+      "offset": 149,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/stavrospachoundakis\/14FS\/FRAMEWORK\/FFS\/FFS\/FFS.swift",
+      "kind": "Array",
+      "offset": 189,
+      "length": 17,
+      "value": "[\"privateKey123\"]"
+    }
+  ]
+}
